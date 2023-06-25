@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
+	<AutoTitle>false</AutoTitle>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<Pages name="ГруппаСтраницы" id="17">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа страницы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа страницы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<PagesRepresentation>None</PagesRepresentation>
+			<ExtendedTooltip name="ГруппаСтраницыРасширеннаяПодсказка" id="18"/>
+			<ChildItems>
+				<Page name="Страница1" id="19">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница1</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница1</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="Страница1РасширеннаяПодсказка" id="20"/>
+					<ChildItems>
+						<UsualGroup name="ГруппаШапка1" id="7">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа шапка1</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа шапка1</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<BackColor>0:2aeb0810-b893-4296-9660-6970508c2130</BackColor>
+							<ExtendedTooltip name="ГруппаШапка1РасширеннаяПодсказка" id="8"/>
+							<ChildItems>
+								<LabelDecoration name="Надпись11" id="1">
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<HorizontalStretch>true</HorizontalStretch>
+									<Font ref="style:NormalTextFont" height="48" kind="StyleItem"/>
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>ВНИМАНИЕ!</v8:content>
+										</v8:item>
+									</Title>
+									<HorizontalAlign>Center</HorizontalAlign>
+									<Border width="4">
+										<v8ui:style xsi:type="v8ui:ControlBorderType">WithoutBorder</v8ui:style>
+									</Border>
+									<ContextMenu name="Надпись11КонтекстноеМеню" id="2"/>
+									<ExtendedTooltip name="Надпись11РасширеннаяПодсказка" id="3"/>
+								</LabelDecoration>
+								<LabelDecoration name="Надпись12" id="11">
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<HorizontalStretch>true</HorizontalStretch>
+									<Font ref="style:NormalTextFont" height="36" kind="StyleItem"/>
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Особые требования к упаковке</v8:content>
+										</v8:item>
+									</Title>
+									<HorizontalAlign>Center</HorizontalAlign>
+									<ContextMenu name="Надпись12КонтекстноеМеню" id="12"/>
+									<ExtendedTooltip name="Надпись12РасширеннаяПодсказка" id="13"/>
+								</LabelDecoration>
+							</ChildItems>
+						</UsualGroup>
+						<LabelDecoration name="Декорация1" id="14">
+							<Height>3</Height>
+							<ContextMenu name="Декорация1КонтекстноеМеню" id="15"/>
+							<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="16"/>
+						</LabelDecoration>
+						<UsualGroup name="ГруппаПодвал1" id="9">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа подвал1</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа подвал1</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<BackColor>0:7f42b86b-ac49-4103-99d7-15b48cd628af</BackColor>
+							<ExtendedTooltip name="ГруппаПодвал1РасширеннаяПодсказка" id="10"/>
+							<ChildItems>
+								<PictureDecoration name="КнопкаЗакрыть1" id="4">
+									<Height>3</Height>
+									<HorizontalStretch>true</HorizontalStretch>
+									<Font ref="0:42cdaa80-a1b7-4519-8c3b-d82e8237f098" kind="StyleItem"/>
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Закрыть</v8:content>
+										</v8:item>
+									</Title>
+									<Hyperlink>true</Hyperlink>
+									<NonselectedPictureText>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Ознакомлен</v8:content>
+										</v8:item>
+									</NonselectedPictureText>
+									<BorderColor>0:fae7a4d5-4126-4755-b9f8-b6a791144d4e</BorderColor>
+									<Border ref="0:594c2b24-099c-4ed9-812d-c703d2722c69"/>
+									<ContextMenu name="КнопкаЗакрыть1КонтекстноеМеню" id="5"/>
+									<ExtendedTooltip name="КнопкаЗакрыть1РасширеннаяПодсказка" id="6"/>
+									<Events>
+										<Event name="Click">КнопкаЗакрыть1Нажатие</Event>
+									</Events>
+								</PictureDecoration>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</Page>
+				<Page name="Страница2" id="21">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница2</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница2</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="Страница2РасширеннаяПодсказка" id="22"/>
+					<ChildItems>
+						<UsualGroup name="ГруппаШапка2" id="23">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа шапка2</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа шапка2</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<BackColor>0:2aeb0810-b893-4296-9660-6970508c2130</BackColor>
+							<ExtendedTooltip name="ГруппаШапка2РасширеннаяПодсказка" id="24"/>
+							<ChildItems>
+								<LabelDecoration name="Надпись21" id="28">
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<HorizontalStretch>true</HorizontalStretch>
+									<Font ref="style:NormalTextFont" height="48" kind="StyleItem"/>
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>ВНИМАНИЕ!</v8:content>
+										</v8:item>
+									</Title>
+									<HorizontalAlign>Center</HorizontalAlign>
+									<ContextMenu name="Надпись21КонтекстноеМеню" id="29"/>
+									<ExtendedTooltip name="Надпись21РасширеннаяПодсказка" id="30"/>
+								</LabelDecoration>
+								<LabelDecoration name="Надпись22" id="31">
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<HorizontalStretch>true</HorizontalStretch>
+									<Font ref="style:NormalTextFont" height="36" kind="StyleItem"/>
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Остались неупакованные товары</v8:content>
+										</v8:item>
+									</Title>
+									<HorizontalAlign>Center</HorizontalAlign>
+									<ContextMenu name="Надпись22КонтекстноеМеню" id="32"/>
+									<ExtendedTooltip name="Надпись22РасширеннаяПодсказка" id="33"/>
+								</LabelDecoration>
+							</ChildItems>
+						</UsualGroup>
+						<LabelDecoration name="Декорация2" id="25">
+							<Height>3</Height>
+							<ContextMenu name="Декорация2КонтекстноеМеню" id="26"/>
+							<ExtendedTooltip name="Декорация2РасширеннаяПодсказка" id="27"/>
+						</LabelDecoration>
+						<UsualGroup name="ГруппаПодвал2" id="34">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа подвал2</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа подвал2</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<BackColor>0:7f42b86b-ac49-4103-99d7-15b48cd628af</BackColor>
+							<ExtendedTooltip name="ГруппаПодвал2РасширеннаяПодсказка" id="35"/>
+							<ChildItems>
+								<PictureDecoration name="КнопкаЗакрыть2" id="36">
+									<Height>3</Height>
+									<HorizontalStretch>true</HorizontalStretch>
+									<Font ref="0:42cdaa80-a1b7-4519-8c3b-d82e8237f098" kind="StyleItem"/>
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Закрыть</v8:content>
+										</v8:item>
+									</Title>
+									<Hyperlink>true</Hyperlink>
+									<NonselectedPictureText>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Ознакомлен</v8:content>
+										</v8:item>
+									</NonselectedPictureText>
+									<BorderColor>0:fae7a4d5-4126-4755-b9f8-b6a791144d4e</BorderColor>
+									<Border ref="0:594c2b24-099c-4ed9-812d-c703d2722c69"/>
+									<ContextMenu name="КнопкаЗакрыть2КонтекстноеМеню" id="37"/>
+									<ExtendedTooltip name="КнопкаЗакрыть2РасширеннаяПодсказка" id="38"/>
+									<Events>
+										<Event name="Click">КнопкаЗакрыть2Нажатие</Event>
+									</Events>
+								</PictureDecoration>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:ExternalDataProcessorObject.усРабочееМестоОператораУпаковкиОперативное</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+	</Attributes>
+</Form>

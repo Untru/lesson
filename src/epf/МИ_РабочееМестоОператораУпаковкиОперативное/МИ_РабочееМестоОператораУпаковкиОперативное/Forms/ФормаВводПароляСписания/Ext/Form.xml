@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="NotificationProcessing">ОбработкаОповещения</Event>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="BeforeClose">ПередЗакрытием</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+		<Event name="OnClose">ПриЗакрытии</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="Пароль" id="21">
+			<DataPath>Пароль</DataPath>
+			<PasswordMode>true</PasswordMode>
+			<ContextMenu name="ПарольКонтекстноеМеню" id="22"/>
+			<ExtendedTooltip name="ПарольРасширеннаяПодсказка" id="23"/>
+		</InputField>
+		<LabelField name="ТекстПодсказки" id="1">
+			<DataPath>ТекстПодсказки</DataPath>
+			<TitleLocation>None</TitleLocation>
+			<HorizontalAlign>Center</HorizontalAlign>
+			<VerticalAlign>Center</VerticalAlign>
+			<Height>2</Height>
+			<TextColor>0:224aa31b-c517-4299-8d2c-2d9cf6a275b8</TextColor>
+			<Font ref="0:12f6dc29-9434-45c8-8a87-f69e8d9cb6b2" kind="StyleItem"/>
+			<ContextMenu name="ТекстПодсказкиКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="ТекстПодсказкиРасширеннаяПодсказка" id="3"/>
+		</LabelField>
+		<LabelField name="ТекстПодсказки2" id="13">
+			<DataPath>ТекстПодсказки2</DataPath>
+			<TitleLocation>None</TitleLocation>
+			<HorizontalAlign>Center</HorizontalAlign>
+			<VerticalAlign>Center</VerticalAlign>
+			<Height>1</Height>
+			<TextColor>0:224aa31b-c517-4299-8d2c-2d9cf6a275b8</TextColor>
+			<Font ref="0:12f6dc29-9434-45c8-8a87-f69e8d9cb6b2" kind="StyleItem"/>
+			<ContextMenu name="ТекстПодсказки2КонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="ТекстПодсказки2РасширеннаяПодсказка" id="15"/>
+		</LabelField>
+		<LabelField name="ТекстПодсказки3" id="16">
+			<DataPath>ТекстПодсказки3</DataPath>
+			<TitleLocation>None</TitleLocation>
+			<HorizontalAlign>Center</HorizontalAlign>
+			<VerticalAlign>Center</VerticalAlign>
+			<Height>1</Height>
+			<TextColor>0:224aa31b-c517-4299-8d2c-2d9cf6a275b8</TextColor>
+			<Font ref="0:12f6dc29-9434-45c8-8a87-f69e8d9cb6b2" kind="StyleItem"/>
+			<ContextMenu name="ТекстПодсказки3КонтекстноеМеню" id="17"/>
+			<ExtendedTooltip name="ТекстПодсказки3РасширеннаяПодсказка" id="18"/>
+		</LabelField>
+		<LabelField name="ТекстОшибки" id="7">
+			<DataPath>ТекстОшибки</DataPath>
+			<TitleLocation>None</TitleLocation>
+			<HorizontalAlign>Center</HorizontalAlign>
+			<VerticalAlign>Center</VerticalAlign>
+			<Height>2</Height>
+			<TextColor>0:62899ee5-1d0b-44bb-bd70-e91c37f3a31a</TextColor>
+			<Font ref="0:73dfa566-4336-490d-b1a1-21dc40b54b7c" kind="StyleItem"/>
+			<ContextMenu name="ТекстОшибкиКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="ТекстОшибкиРасширеннаяПодсказка" id="9"/>
+		</LabelField>
+		<UsualGroup name="Группа1" id="19">
+			<Group>Vertical</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<BackColor>0:07b8c8dc-2daa-4c63-b9a8-bc86d3442d4c</BackColor>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="20"/>
+			<ChildItems>
+				<PictureDecoration name="ВвестиПароль" id="4">
+					<Height>3</Height>
+					<HorizontalStretch>true</HorizontalStretch>
+					<VerticalStretch>false</VerticalStretch>
+					<Font ref="0:42cdaa80-a1b7-4519-8c3b-d82e8237f098" kind="StyleItem"/>
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ввести пароль</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTipRepresentation>None</ToolTipRepresentation>
+					<Hyperlink>true</Hyperlink>
+					<NonselectedPictureText>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ввести пароль</v8:content>
+						</v8:item>
+					</NonselectedPictureText>
+					<BorderColor>0:3a86db7c-1563-4ff9-8cff-448cc150e0e7</BorderColor>
+					<Border ref="0:594c2b24-099c-4ed9-812d-c703d2722c69"/>
+					<FileDragMode>AsFile</FileDragMode>
+					<ContextMenu name="ВвестиПарольКонтекстноеМеню" id="5"/>
+					<ExtendedTooltip name="ВвестиПарольРасширеннаяПодсказка" id="6"/>
+					<Events>
+						<Event name="Click">ВвестиНомерПломбыНажатие</Event>
+					</Events>
+				</PictureDecoration>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:ExternalDataProcessorObject.усРабочееМестоОператораУпаковкиОперативное</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="ТекстПодсказки" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Текст подсказки</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ТекстОшибки" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Текст ошибки</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ШтрихКод" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Штрих код</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ТекстПодсказки2" id="13">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Текст подсказки</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ТекстПодсказки3" id="14">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Текст подсказки</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Пароль" id="15">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пароль</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>100</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+</Form>
